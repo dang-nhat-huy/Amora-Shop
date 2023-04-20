@@ -1,0 +1,543 @@
+/*.cart-content-container {
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+
+.cart-product-list {
+    margin: 0 0 4rem 0;
+}
+
+.product-image-container {
+    width: 140px;
+}
+
+.cart-item:nth-child(1) ~ .cart-item::before {
+    content: "";
+    border-top: 0.5px solid rgba(0,0,0,0.2);
+    width: 100%;
+    margin: 20px 40px;
+}
+
+.cart-item-img {
+    width: 100%;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    line-height: 1.7;
+    position: relative;
+}
+
+.item-name {
+    color: var(--main-page-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.item-price {
+    font-size: 1.4rem;
+}
+
+.product-item-action {
+    position: absolute;
+    right: -14%;
+    top: 20%;
+}
+
+.delete-item-btn {
+    display: flex;
+    background-color: white;
+    border: none;
+}
+
+.item-total-money {
+    font-size: 1.7rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: -210%;
+    right: 5%;
+    min-width: 14rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quantity-selector{
+    width: 8rem !important;
+}
+
+
+.order-info, .order-actions{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding: 0 3.8rem;
+}
+
+.order-info {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.total-price {
+    margin-left: 10px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.order-actions {
+    font-size: 1.2rem;
+}
+
+.order-actions .button-57 {
+    margin: 10px 0 0 8px;
+}
+
+
+ Shipping details css section 
+.shipping-details-section {
+    padding: 5.6rem 6.7rem 0;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: black !important;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.bread-scrumb {
+    display: flex;
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.bread-scrumb-item {
+    margin-right: 10px;
+}
+
+ This will negative select the last element 
+.main {
+    padding: 5.6rem 10rem 0;
+}
+
+.bread-scrumb-item:not(:last-child)::after {
+    content: ">";
+    padding-left: 5px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.main-body {
+    margin-top: 5px;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.logged-in-user-infor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logged-in-user-img {
+    width: 5rem;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.user-name-mail {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.shipping-details-section a{
+    color: #338dbc;
+    text-decoration: none;
+}
+
+.shipping-details-section a:hover{
+    filter: brightness(1.2);
+}
+
+.user-logout-action{
+    font-size: 1.4rem;
+}
+
+.field-input-wrapper {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 8px 10px;
+    outline: none;
+    border: 0.5px solid rgba(0,0,0,0.5);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.select-form-container {
+    margin: 0;
+}
+
+.select-form {
+    width: 30%;
+    font-size: 14px;
+    height: 35px;
+}
+
+.select-form:not(:last-child) {
+    margin-right: 20px;
+}
+
+.shipping-details-action {
+    margin: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shipping-details-action a{
+    font-size: 1.4rem;
+}
+
+.continue-to-payment-btn {
+    padding: 14px 28px;
+    border: none;
+    background-color: #468dbc;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.continue-to-payment-btn a{
+    color: white;
+    font-size: 1.6rem;
+}*/
+
+.cart-content-container {
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+
+.cart-product-list {
+    margin: 0 0 4rem 0;
+}
+
+.product-image-container {
+    width: 140px;
+}
+
+.cart-item:nth-child(1) ~ .cart-item::before {
+    content: "";
+    border-top: 0.5px solid rgba(0,0,0,0.2);
+    width: 100%;
+    margin: 20px 40px;
+}
+
+.cart-item-img {
+    width: 100%;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    line-height: 1.7;
+    position: relative;
+}
+
+.item-name {
+    color: var(--main-page-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.item-price {
+    font-size: 1.4rem;
+}
+
+.product-item-action {
+    position: absolute;
+    right: -14%;
+    top: 20%;
+}
+
+.delete-item-btn {
+    display: flex;
+    background-color: white;
+    border: none;
+}
+
+.item-total-money {
+    font-size: 1.7rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: -210%;
+    right: 5%;
+    min-width: 14rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quantity-selector{
+    width: 8rem !important;
+}
+
+
+.order-info, .order-actions{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding: 0 3.8rem;
+}
+
+.order-info {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.total-price {
+    margin-left: 10px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.order-actions {
+    font-size: 1.2rem;
+}
+
+.order-actions .button-57 {
+    margin: 10px 0 0 8px;
+}
+
+
+/* Shipping details css section */
+.shipping-details-section {
+    padding: 0 0 0 6.7rem;
+    display: flex;
+    height: 100%
+}
+
+.logo-text {
+    text-decoration: none;
+    color: black !important;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.bread-scrumb {
+    display: flex;
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.bread-scrumb-item {
+    margin-right: 10px;
+}
+
+/* This will negative select the last element */
+.main {
+    padding: 5.6rem 10rem 0;
+}
+
+.bread-scrumb-item:not(:last-child)::after {
+    content: ">";
+    padding-left: 5px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.main-body {
+    margin-top: 5px;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.logged-in-user-infor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logged-in-user-img {
+    width: 5rem;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.user-name-mail {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.shipping-details-section a{
+    color: #338dbc;
+    text-decoration: none;
+}
+
+.shipping-details-section a:hover{
+    filter: brightness(1.2);
+}
+
+.user-logout-action{
+    font-size: 1.4rem;
+}
+
+.field-input-wrapper {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 8px 10px;
+    outline: none;
+    border: 0.5px solid rgba(0,0,0,0.5);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.select-form-container {
+    margin: 0;
+}
+
+.select-form {
+    /* width: 30%; */
+    font-size: 14px;
+    height: 35px;
+}
+
+.select-form:not(:last-child) {
+    /* margin-right: 20px; */
+}
+
+.shipping-details-action {
+    margin: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shipping-details-action a{
+    font-size: 1.4rem;
+}
+
+.continue-to-payment-btn {
+    padding: 1.4rem 2.8rem;
+    border: none;
+    background-color: #468dbc;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+}
+
+.continue-to-payment-btn:hover {
+    filter: brightness(1.2);
+}
+
+.continue-to-payment-btn a{
+    color: white;
+    font-size: 1.6rem;
+}
+
+.side-bar {
+    padding: 5.6rem 4.4rem 0;
+    background-color: #fafafa;
+    border-left: 0.5px solid #e1e1e1;
+    height: 100%;
+    min-height: 100vh;
+}
+
+/* Side bar order summary css */
+
+.order-summary .product-image-container {
+    width: 20%;
+    position: relative;;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.product-image-container .cart-item-img{
+    border-radius: 15px;
+}
+
+.buy-quantity {
+    position: absolute;
+    top: -5%;
+    right: -10%;
+    background-color: #a3a3a3;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.order-describe {
+    padding: 0 0 0 20px;
+    line-height: 1.5;
+    width: 70%;
+    position: relative;
+}
+
+.order-item-name {
+    font-size: 1.4rem;
+}
+
+.order-item-capacity {
+    font-size: 1.2rem;
+}
+
+
+.order-item-price {
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: absolute;
+    top: 27%;
+    right: 0;
+}
+
+.order-total-sum {
+    display: flex;
+    align-items: center;
+    padding: 15px 4.7rem 15px 0;
+    justify-content: space-between;
+    border-top: 0.4px solid rgba(0,0,0,0.2);
+}
+
+.order-sum-cald i {
+    margin-right: 10px;
+}
+
+.order-total-sum .text {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.order-sum-cald {
+    font-size: 2.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}

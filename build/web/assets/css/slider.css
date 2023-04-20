@@ -1,0 +1,46 @@
+.owl-carou-container {
+    padding-right: 5px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item {
+    width: 240px;
+}
+
+.owl-nav {
+    font-size: 30px;
+    position: absolute;
+}
+
+
+.owl-prev span,
+.owl-next span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: 0.2px solid rgba(0,0,0,0.2);
+}
+
+.owl-prev span {
+    position: absolute;
+    top: -19rem;
+    left: -0.8rem;
+}
+
+.owl-next span {
+    position: absolute;
+    top: -19rem;
+    right: -133rem;
+}
+
+.owl-dots {
+    display: none;
+}

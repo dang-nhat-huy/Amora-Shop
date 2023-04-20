@@ -1,0 +1,44 @@
+.user-update-info-container{
+    padding: 20px 0;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.user-update-info-form{
+    margin: 20px 0 0;
+}
+
+.update-img-des {
+    margin: 15px 0 10px;
+    font-size: 12px;
+}
+
+.update-img-action{
+
+}
+
+#registrationForm {
+    padding-top: 15px;
+}
+
+.input-field-title {
+    font-size: 1.5rem;
+    color: var(--main-page-color);
+}
+
+.form-action-container {
+    padding: 14px 15px 0;
+}
+
+.form-action-container button {
+    margin: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 9rem;
+}
+
+.form-group-icon {
+    width: 20px;
+    margin-right: 5px;
+}

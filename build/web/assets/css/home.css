@@ -1,0 +1,1136 @@
+/*html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif, 'Times New Roman', Times, serif;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+     height: 2048px; 
+}
+
+.header {
+    width: 100%;
+}
+
+ --------------HEADER-------------- 
+.header-nav-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+.ivisible-bar,
+.wrap-logo,
+.utility-list {
+    width: 33%;
+}
+
+.header-logo {
+    width: 240px;
+}
+
+.utility-list {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.utility-item {
+    color: black;
+    font-size: 24px;
+    margin: 0 12px;
+}
+
+.header-icon {
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+
+.main-menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.header-nav-link:hover{
+    color: black !important;
+}
+
+.main-menu-item {
+    font-size: 1.6rem;
+    margin: 0 1.2rem;
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+
+ .main-menu-item:hover {
+    color: var(--main-page-color);
+    cursor: pointer;
+    font-weight: 600;
+} 
+ BANNER 
+#banner{
+    position: relative;
+}
+
+.home-banner{
+    width: 100%;
+    height: 65rem;
+    object-fit: cover;
+    margin: auto;
+    animation: fadeIn ease 1s;
+}
+
+.button-navigation-banner {
+    font-size: 21px;
+    border: 1px solid #ededed;
+    background-color: white;
+    border-radius: 12rem;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.prev-banner-button {
+    top: 50%;
+}
+
+.next-banner-button {
+    right: 0;
+    top: 50%;
+}
+
+.button-navigation-banner{
+
+}
+
+ -------NEW-PRODUCT_SECTION------- 
+
+.new-product {
+    margin: 0 -2px 40px;
+    padding: 0;
+}
+
+.new-product-title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 5rem 0;
+    color: #518372;
+}
+
+.product-block {
+    width: 24rem;
+    margin: 0 15px 0 15px;
+}
+
+.product-img-wrap {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.product-name {
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #518372;
+}
+
+.product-price {
+    font-size: 1.4rem;
+}
+
+ ------TOP-PERFUME-BRAND-SECTION------ 
+
+.top-pf-brand-container {
+    margin: 0;
+    padding: 0;
+    height: 45rem;
+}
+
+.top-pf-brands-block {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.top-pf-brand-caption {
+    position: absolute;
+    width: 100%;
+    padding: 5rem;
+    bottom: 5rem;
+    color: white;
+}
+
+.top-pf-name {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+
+ CSS 
+.button-57 {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+}
+
+.button-57 span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 64%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    width: 7rem;
+    line-height: 13px;
+}
+
+.button-57:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.button-57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+ About us---------Working on it section--------- 
+.processing-section {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+.processing-img {
+    width: 6rem;
+}
+
+.processing-text {
+    color: black;
+}
+
+ ---------------Footer section--------------- 
+.footer {
+     margin-top: 32px; 
+     border-top: 1px solid rgba(0, 0, 0, 0.2); 
+}
+
+.footer-top {
+    padding: 18px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-inner-block {}
+
+.footer-inner-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #2a5f4b;
+}
+
+.footer-container {}
+
+.footer-shop-logo {
+    width: 15rem;
+}
+
+.inner-footer-text {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    background-color: #ccc;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding: 0.8rem 0;
+    margin: 2.2rem 0 0;
+}
+
+ Login Page Css 
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.login-signup-container.row {
+    min-height: 66.7rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.login-signup-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #ededed;
+    padding: 10rem;
+}
+
+.login-signup-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--main-page-color);
+    margin-bottom: 2rem;
+}
+
+.slash-decor {
+    border: 1px solid black;
+    width: 14%;
+}
+
+.login-page-logo {
+    width: 35rem;
+}
+
+.login-signup-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.user-login-signup-input {
+    height: 55px;
+    background: #ededed;
+    padding: 0 20px;
+    margin: 10px 0;
+    color: #001812;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.user-login-signup-input:focus{
+    outline: none;
+    border-color: #ededed;
+    background: #fff;
+}
+
+.action-login-google-icon{
+    background: white;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+ adjust radio button 
+#customer-gender-wrap {
+    margin: 8px 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    font-size: 1.4rem;
+    position: relative;
+    cursor: pointer;
+    padding-left: 28px;
+    margin: 0 20px 0 0;
+}
+
+input[type="radio"]+label::before,
+input[type="radio"]+label::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]+label::before {
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background: #487264;
+    box-shadow: inset 0 0 0 18px #efefef;
+}
+
+input[type="radio"]:checked+label:before {
+    box-shadow: inset 0 0 0 4px #efefef;
+}
+
+input[type="radio"]+label::after {
+    top: 49%;
+    left: 9px;
+    width: 54px;
+    height: 54px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%) scale(0);
+}
+
+input[type="radio"]:checked+label::after {
+    transform: translate(-50%, -50%) scale(1);
+    animation: ripple 1s none;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+}
+
+
+
+.action-bottom {
+    margin: 1rem 0 1.2rem;
+}
+
+.action-other-box,
+.action-to-home {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-other-box a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.action-other-box a:hover {
+    color: black;
+    font-weight: 500;
+    color: var(--main-page-color);
+}
+
+.action-to-home {
+    margin: 24px 0 0;
+}
+
+.action-to-home a img {
+    width: 24px;
+}
+
+.action-to-home a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 150ms linear;
+}
+
+.action-to-home a:hover{
+    color: var(--main-page-color);
+}
+
+
+
+
+
+
+ Key frame 
+@keyframes FadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slide-animation {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+*/
+
+html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif, 'Times New Roman', Times, serif;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* height: 2048px; */
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid rgba(1, 1, 1, 0.4);
+}
+
+/* --------------HEADER-------------- */
+.header-nav-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+.ivisible-bar,
+.wrap-logo,
+.utility-list {
+    width: 33%;
+}
+
+.header-logo {
+    width: 240px;
+}
+
+.utility-list {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.utility-item {
+    color: black;
+    font-size: 24px;
+    margin: 0 12px;
+}
+
+.utility-item:nth-child(2):hover{
+    rotate: -10deg;
+}
+
+.header-icon {
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+
+/* Search box */
+.search-box-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: none;
+  }
+  
+  .search-box {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    padding: 45px 50px 0;
+    animation: modalSwipeFromRight ease 0.8s;
+  }
+  
+  .search-box-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  
+  .search-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .search-box-exit {
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .search-box-exit:hover {
+    cursor: pointer;
+    background: rgb(216 208 208);
+  }
+  
+  .search-wrapper {
+    position: relative;
+  }
+  
+  .search-input-real-time {
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.07);
+    font-size: 1.8rem;
+    padding: 15px 10px;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-submit-button {
+    position: absolute;
+    left: 89%;
+    bottom: 25%;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .search-submit-button:hover {
+    rotate: -10deg;
+    cursor: pointer;
+  }
+  
+  .search-box-container.open {
+    display: flex;
+  }
+  
+  
+  @keyframes modalSwipeFromRight {
+    from {
+      transform: translateX(70%);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+  }
+/* End of search modal   */
+
+
+.main-menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-link{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.header-nav-link:hover{
+    color: black !important;
+}
+
+.main-menu-item {
+    font-size: 1.6rem;
+    margin: 0 1.2rem;
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+
+ .main-menu-item:hover {
+    color: var(--main-page-color);
+    cursor: pointer;
+    font-weight: 600;
+} 
+/* BANNER */
+#banner{
+    position: relative;
+}
+
+.home-banner{
+    width: 100%;
+    height: 65rem;
+    object-fit: cover;
+    margin: auto;
+    animation: fadeIn ease 1s;
+}
+
+.button-navigation-banner {
+    font-size: 21px;
+    border: 1px solid #ededed;
+    background-color: white;
+    border-radius: 12rem;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.prev-banner-button {
+    top: 50%;
+}
+
+.next-banner-button {
+    right: 0;
+    top: 50%;
+}
+
+.button-navigation-banner{
+
+}
+
+/* -------NEW-PRODUCT_SECTION------- */
+
+.new-product {
+    margin: 0 -2px 40px;
+    padding: 0;
+}
+
+.new-product-title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 5rem 0;
+    color: #518372;
+}
+
+.product-block {
+    width: 24rem;
+    margin: 0 15px 0 15px;
+}
+
+.product-img-wrap {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.product-name {
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #518372;
+}
+
+.product-price {
+    font-size: 1.4rem;
+}
+
+/* ------TOP-PERFUME-BRAND-SECTION------ */
+
+.top-pf-brand-container {
+    margin: 0;
+    padding: 0;
+    height: 45rem;
+}
+
+.top-pf-brands-block {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.top-pf-brand-caption {
+    position: absolute;
+    width: 100%;
+    padding: 5rem;
+    bottom: 5rem;
+    color: white;
+}
+
+.top-pf-name {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+
+/* CSS */
+.button-57 {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    /* z-index: 10; */
+    z-index: 1;
+}
+
+.button-57 span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    /* z-index: 100; */
+    z-index: 3;
+    opacity: 0;
+    top: 64%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    width: 7rem;
+    line-height: 13px;
+}
+
+.button-57:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 2;
+}
+
+.button-57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+/* About us---------Working on it section--------- */
+.processing-section {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+.processing-img {
+    width: 6rem;
+}
+
+.processing-text {
+    color: black;
+}
+
+/* ---------------Footer section--------------- */
+.footer {
+    /* margin-top: 32px; */
+    /* border-top: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+.footer-top {
+    padding: 18px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-inner-block {}
+
+.footer-inner-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #2a5f4b;
+}
+
+.footer-container {}
+
+.footer-shop-logo {
+    width: 15rem;
+}
+
+.inner-footer-text {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    background-color: #ccc;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding: 0.8rem 0;
+    margin: 2.2rem 0 0;
+}
+
+/* Login Page Css */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.login-signup-container.row {
+    min-height: 66.7rem;
+}
+
+
+.login-signup-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #ededed;
+    padding: 10rem;
+}
+
+.login-signup-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--main-page-color);
+    margin-bottom: 2rem;
+}
+
+.slash-decor {
+    border: 1px solid black;
+    width: 14%;
+}
+
+.login-page-logo {
+    width: 35rem;
+}
+
+.login-signup-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.user-login-signup-input {
+    height: 55px;
+    background: #ededed;
+    padding: 0 20px;
+    margin: 10px 0;
+    color: #001812;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.user-login-signup-input:focus{
+    outline: none;
+    border-color: #ededed;
+    background: #fff;
+}
+
+.action-login-google-icon{
+    background: white;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+/* adjust radio button */
+#customer-gender-wrap {
+    margin: 8px 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    font-size: 1.4rem;
+    position: relative;
+    cursor: pointer;
+    padding-left: 28px;
+    margin: 0 20px 0 0;
+}
+
+input[type="radio"]+label::before,
+input[type="radio"]+label::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+input[type="radio"]+label::before {
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background: #487264;
+    box-shadow: inset 0 0 0 18px #efefef;
+}
+
+input[type="radio"]:checked+label:before {
+    box-shadow: inset 0 0 0 4px #efefef;
+}
+
+input[type="radio"]+label::after {
+    top: 49%;
+    left: 9px;
+    width: 54px;
+    height: 54px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%) scale(0);
+}
+
+input[type="radio"]:checked+label::after {
+    transform: translate(-50%, -50%) scale(1);
+    animation: ripple 1s none;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+}
+
+
+
+.action-bottom {
+    margin: 1rem 0 1.2rem;
+}
+
+.action-other-box,
+.action-to-home {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-other-box a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.action-other-box a:hover {
+    color: black;
+    font-weight: 500;
+    color: var(--main-page-color);
+}
+
+.action-to-home {
+    margin: 24px 0 0;
+}
+
+.action-to-home a img {
+    width: 24px;
+}
+
+.action-to-home a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 150ms linear;
+}
+
+.action-to-home a:hover{
+    color: var(--main-page-color);
+}
+
+
+
+
+
+
+/* Key frame */
+@keyframes FadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slide-animation {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
